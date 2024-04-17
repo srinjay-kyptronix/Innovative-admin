@@ -30,7 +30,57 @@ const Sidebar = (props)=>{
         </div>
       </a>
 
- 
+      <a style={{textDecoration: "none"}} href="/pages/mcq-template-editor">
+        <div className="row fw-bold text-white" style={activeOption=='mcq-template-editor'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>MCQ Template Editor</p>
+        </div>
+      </a>
+
+      <a style={{textDecoration: "none"}} href="/pages/file-upload-temp-editor">
+        <div className="row fw-bold text-white" style={activeOption=='file-upload-temp-editor'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>File Upload Temp Editor</p>
+        </div>
+      </a>
+
+      <a style={{textDecoration: "none"}} href="/pages/invoice-management">
+        <div className="row fw-bold text-white" style={activeOption=='invoice-management'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>Invoice Management</p>
+        </div>
+      </a>
+
+
+      <a style={{textDecoration: "none"}} href="/pages/purchase-order-management">
+        <div className="row fw-bold text-white" style={activeOption=='purchase-order-management'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>Purchase Order Management</p>
+        </div>
+      </a>
+
+
+      <a style={{textDecoration: "none"}} href="/pages/document-center">
+        <div className="row fw-bold text-white" style={activeOption=='document-center'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>Document Center</p>
+        </div>
+      </a>
+
+
+      <a style={{textDecoration: "none"}} href="/pages/document-center">
+        <div className="row fw-bold text-white" style={activeOption=='document-center'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>Document Center</p>
+        </div>
+      </a>
+
+      <a style={{textDecoration: "none"}} href="/pages/system-setting">
+        <div className="row fw-bold text-white" style={activeOption=='system-setting'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>System Setting</p>
+        </div>
+      </a>
+
+
+      <a style={{textDecoration: "none"}} href="/pages/logout">
+        <div className="row fw-bold text-white" style={activeOption=='logout'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
+          <p className='px-3 pt-2 ms-4 me-2 '>Logout</p>
+        </div>
+      </a>
     </div>
   )
 }
