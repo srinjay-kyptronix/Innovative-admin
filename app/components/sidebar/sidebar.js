@@ -51,7 +51,7 @@ const Sidebar = (props)=>{
 
       <a style={{textDecoration: "none"}} href="/pages/purchase-order-management">
         <div className="row fw-bold text-white" style={activeOption=='purchase-order-management'?{backgroundColor: '#575655'}:{backgroundColor:"transparent"}}>
-          <p className='px-3 pt-2 ms-4 me-2 '>Purchase Order Management</p>
+          <p className='px-3 pt-2 ms-4 me-2 ' style={{whiteSpace:"nowrap"}}>Purchase Order Manage..</p>
         </div>
       </a>
 
